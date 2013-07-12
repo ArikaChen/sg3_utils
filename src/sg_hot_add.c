@@ -15,6 +15,8 @@
 
 #define DEF_RLUNS_BUFF_LEN (1024 * 8)
 
+
+
 int get_lun_from_hctl( const char * hctl );
 
 static const char * scsi_host = "/sys/class/scsi_host/";
